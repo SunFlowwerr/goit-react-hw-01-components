@@ -1,0 +1,21 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  color: #008b8b;
+  font-size: 14px;
+}
+
+.mainCell {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  background-color: #00ffff;
+}
+
+.cell {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  background-color: #e0ffff;
+}
