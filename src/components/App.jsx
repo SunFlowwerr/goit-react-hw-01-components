@@ -2,8 +2,8 @@ import { Profile } from './Profile/Profile';
 import user from './Profile/userData/user.json';
 import { Statistics } from './Statistics/Statistics';
 import data from './Statistics/statisticsData/data.json';
-// import { FriendList } from './FriendList/FriendList';
-// import friends from './FriendList/friendListData/friends.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from './FriendList/friendListData/friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactionData/transactions.json';
 
@@ -20,7 +20,7 @@ export const App = () => {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" stats={data} />
-      {/* <FriendList friends={friends} /> */}
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
   );
