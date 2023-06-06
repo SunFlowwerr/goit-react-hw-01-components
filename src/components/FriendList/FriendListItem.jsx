@@ -3,7 +3,7 @@ import css from './FriendListItem.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className={css.item}>
+    <li>
       <span>{isOnline}</span>
       <img src={avatar} alt="User avatar" width="48" />
       <p>{name}</p>
