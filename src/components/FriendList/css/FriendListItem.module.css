@@ -29,3 +29,10 @@
 .false {
   background-color: red;
 }
+
+.avatar {
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
