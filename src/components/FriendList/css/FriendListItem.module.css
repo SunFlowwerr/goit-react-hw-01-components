@@ -21,3 +21,11 @@
   box-sizing: border-box;
   border-radius: 100%;
 }
+
+.true {
+  background-color: green;
+}
+
+.false {
+  background-color: red;
+}
