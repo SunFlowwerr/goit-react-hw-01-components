@@ -25,7 +25,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
           height: 9,
           boxSizing: 'border-box',
           borderRadius: '100%',
-          backgroundColor: isOnline ? 'green' : 'red', // Пример использования состояния isOnline
+          backgroundColor: isOnline ? 'green' : 'red',
         }}
       ></span>
       <img
